@@ -1,0 +1,54 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello world</title>
+    <body>
+        Hello world
+       <form action="/voting" method="post">
+        <input type="text">
+       </form>
+    </body>
+</head>
+<body>
+    
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Voting System</title>
+</head>
+<body>
+  <h1>Vote for Your Favorite Option</h1>
+
+  <!-- Replace the values below dynamically using Express OR by copy-pasting real MongoDB IDs for now -->
+  
+  <div>
+    <h3>Option A</h3>
+    <form method="POST" action="/vote/OPTION_ID_A">
+      <button type="submit">Vote</button>
+    </form>
+  </div>
+
+  <div>
+    <h3>Option B</h3>
+    <form method="POST" action="/vote/OPTION_ID_B">
+      <button type="submit">Vote</button>
+    </form>
+  </div>
+
+  <div>
+    <h3>Option C</h3>
+    <form method="POST" action="/vote/OPTION_ID_C">
+      <button type="submit">Vote</button>
+    </form>
+  </div>
+  <div>
+    <a href="/results">View Results</a>
+  </div>
+</body>
+</html>
